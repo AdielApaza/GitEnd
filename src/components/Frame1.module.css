@@ -1,0 +1,18 @@
+.frame,
+.frame1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.frame1 {
+  flex: 1;
+  height: 83.5px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -168px;
+}
+.frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}

@@ -1,0 +1,52 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--dark-2);
+}
+.title {
+  position: absolute;
+  height: 38.46%;
+  width: 89.43%;
+  top: 15.38%;
+  left: 5.69%;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+.downIcon {
+  position: absolute;
+  top: 26px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.title1 {
+  position: absolute;
+  height: 17.95%;
+  width: 61.79%;
+  top: 64.1%;
+  left: 19.51%;
+  font-size: var(--font-size-base);
+  line-height: 16px;
+  color: var(--primary);
+  display: inline-block;
+}
+.smallCard {
+  position: absolute;
+  top: 499px;
+  left: 207px;
+  width: 123px;
+  height: 117px;
+  text-align: left;
+  font-size: var(--h5-semibold-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

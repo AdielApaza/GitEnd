@@ -1,0 +1,154 @@
+.cardIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.name,
+.subtitle {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 13px;
+}
+.name {
+  top: 0;
+  left: 85.63%;
+  font-size: var(--body-regular-size);
+  line-height: 18px;
+  font-weight: 600;
+  text-align: right;
+}
+.cost,
+.subtitle1 {
+  position: absolute;
+  left: 0;
+}
+.cost {
+  top: 207px;
+  width: 327px;
+  height: 18px;
+}
+.subtitle1 {
+  top: 0;
+  line-height: 13px;
+}
+.name1 {
+  top: 55%;
+  font-size: var(--body-regular-size);
+  line-height: 18px;
+  font-weight: 800;
+  color: var(--color-yellow);
+  text-align: right;
+}
+.name1,
+.subtitle2,
+.time {
+  position: absolute;
+  left: 0;
+}
+.time {
+  top: 154px;
+  width: 140px;
+  height: 40px;
+}
+.subtitle2 {
+  top: 0;
+  line-height: 13px;
+  font-weight: 800;
+}
+.name2 {
+  top: 48.57%;
+  left: 0;
+  font-size: var(--body-regular-size);
+  line-height: 18px;
+}
+.date,
+.name2,
+.name3 {
+  position: absolute;
+}
+.date {
+  top: 103px;
+  left: 0;
+  width: 238px;
+  height: 35px;
+}
+.name3 {
+  top: 65.38%;
+  left: 28.81%;
+  font-size: var(--body-regular-size);
+  line-height: 18px;
+  font-weight: 600;
+}
+.pointChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--primary);
+}
+.title {
+  top: 6.15%;
+  left: 26.3%;
+  line-height: 13px;
+}
+.point,
+.title,
+.title1 {
+  position: absolute;
+  display: none;
+}
+.point {
+  height: 98.48%;
+  width: 100%;
+  top: 1.52%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.title1 {
+  top: 0;
+  left: 24.07%;
+  line-height: 13px;
+  color: var(--color-black);
+}
+.smallPoint {
+  position: absolute;
+  top: 23.4px;
+  left: 150px;
+  width: 27px;
+  height: 13.2px;
+  text-align: center;
+  font-size: var(--small-point-bold-size);
+}
+.details,
+.trainer {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 177px;
+  height: 52px;
+}
+.details {
+  height: 33.99%;
+  width: 87.2%;
+  top: 11.95%;
+  right: 6.4%;
+  bottom: 54.06%;
+  left: 6.4%;
+  text-align: left;
+  font-size: var(--caption-bold-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

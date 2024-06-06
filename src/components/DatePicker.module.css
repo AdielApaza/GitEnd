@@ -1,0 +1,69 @@
+.rectangleIcon {
+  position: absolute;
+  height: 46.21%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 53.79%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.circleLeftIcon,
+.circleRightIcon {
+  position: absolute;
+  top: 61px;
+  right: 14.9px;
+  width: 25.1px;
+  height: 26.5px;
+}
+.circleLeftIcon {
+  right: 325.9px;
+}
+.days {
+  top: 120px;
+  left: 17px;
+  width: 350.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.date,
+.days,
+.trainers {
+  position: absolute;
+}
+.date {
+  height: 4.24%;
+  width: 31.28%;
+  top: 14.29%;
+  left: 33.69%;
+  font-weight: 600;
+  display: inline-block;
+}
+.trainers {
+  top: 236.2px;
+  left: 23.6px;
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.datePicker {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  width: 374px;
+  height: 448px;
+  text-align: left;
+  font-size: var(--subtitle-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

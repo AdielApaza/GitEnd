@@ -1,0 +1,119 @@
+.background,
+.imageIcon,
+.rectangleIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.imageIcon {
+  height: 41.63%;
+  top: 0;
+  bottom: 58.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.background,
+.rectangleIcon {
+  bottom: 0;
+}
+.rectangleIcon {
+  height: 68.47%;
+  top: 31.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.background {
+  height: 100%;
+  top: 0;
+}
+.info {
+  position: absolute;
+  top: calc(50% - 37px);
+  left: calc(50% - 163.5px);
+  width: 192.5px;
+  height: 29px;
+}
+.subtitle {
+  top: 12.31%;
+  line-height: 16px;
+  color: var(--primary);
+}
+.description,
+.subtitle,
+.title {
+  position: absolute;
+  left: 0;
+}
+.title {
+  top: 0;
+  font-size: var(--h5-semibold-size);
+  line-height: 25px;
+  font-weight: 600;
+}
+.description {
+  width: 100%;
+  top: 52.99%;
+  font-size: var(--body-regular-size);
+  line-height: 21px;
+  display: inline-block;
+}
+.text {
+  position: absolute;
+  height: 33%;
+  width: 82.93%;
+  top: 35.47%;
+  right: 10.67%;
+  bottom: 31.53%;
+  left: 6.4%;
+}
+.button,
+.rectangleIcon1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.rectangleIcon1 {
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button {
+  height: 23.28%;
+  top: 76.72%;
+  right: -0.13%;
+  left: 0.13%;
+}
+.circleLeftIcon,
+.homeIcon {
+  position: absolute;
+  top: 56px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.homeIcon {
+  top: 23px;
+  left: 331px;
+  width: 24px;
+  height: 24px;
+}
+.ej1guion {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--footnote-medium-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

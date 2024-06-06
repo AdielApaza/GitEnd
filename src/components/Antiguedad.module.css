@@ -1,0 +1,70 @@
+.antiguedadChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 154px;
+}
+.desde,
+.headline {
+  position: absolute;
+  display: inline-block;
+}
+.desde {
+  width: 23.09%;
+  top: 11.04%;
+  left: 10%;
+  line-height: 13px;
+  cursor: pointer;
+}
+.headline {
+  width: 67.78%;
+  top: 22.08%;
+  left: 10.62%;
+  font-size: var(--body-regular-size);
+  line-height: 18px;
+  font-weight: 600;
+  color: var(--soft);
+}
+.b,
+.membresia,
+.tipoDeUsuario {
+  position: absolute;
+  top: 91px;
+  left: 16px;
+  line-height: 13px;
+  color: var(--color-goldenrod);
+}
+.b,
+.tipoDeUsuario {
+  top: 55px;
+}
+.b {
+  top: 129px;
+  left: 9px;
+  font-size: var(--body-regular-size);
+  line-height: 25px;
+  color: var(--soft);
+  white-space: pre-wrap;
+}
+.clienteRegular {
+  position: absolute;
+  top: 73px;
+  left: 20px;
+  font-size: var(--subtitle-regular-size);
+  line-height: 13px;
+  cursor: pointer;
+}
+.antiguedad {
+  position: absolute;
+  top: 104px;
+  left: 197px;
+  width: 162px;
+  height: 154px;
+  text-align: left;
+  font-size: var(--caption-bold-size);
+  color: var(--primary);
+  font-family: var(--footnote-medium);
+}

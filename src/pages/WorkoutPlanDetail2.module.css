@@ -1,0 +1,102 @@
+.background,
+.imageIcon,
+.rectangleIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.imageIcon {
+  height: 41.63%;
+  top: 0;
+  bottom: 58.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.background,
+.rectangleIcon {
+  bottom: 0;
+}
+.rectangleIcon {
+  height: 68.47%;
+  top: 31.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.background {
+  height: 100%;
+  top: 0;
+}
+.info {
+  position: absolute;
+  top: calc(50% - 37px);
+  left: calc(50% - 163.5px);
+  width: 192.5px;
+  height: 29px;
+}
+.subtitle {
+  top: 11.42%;
+  line-height: 16px;
+  color: var(--primary);
+}
+.description,
+.subtitle,
+.title {
+  position: absolute;
+  left: 0;
+}
+.title {
+  top: 0;
+  font-size: var(--h5-semibold-size);
+  line-height: 25px;
+  font-weight: 600;
+}
+.description {
+  width: 100%;
+  top: 49.13%;
+  font-size: var(--body-regular-size);
+  line-height: 21px;
+  display: inline-block;
+}
+.text {
+  position: absolute;
+  height: 35.59%;
+  width: 82.93%;
+  top: 35.47%;
+  right: 10.67%;
+  bottom: 28.94%;
+  left: 6.4%;
+}
+.button,
+.circleLeftIcon {
+  position: absolute;
+  cursor: pointer;
+}
+.button {
+  height: 6.16%;
+  width: 70.13%;
+  top: 90.02%;
+  right: 14.93%;
+  bottom: 3.82%;
+  left: 14.93%;
+}
+.circleLeftIcon {
+  top: 56px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+}
+.mariposa {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--footnote-medium-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

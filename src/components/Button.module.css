@@ -1,0 +1,21 @@
+.button,
+.rectangleIcon {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.rectangleIcon {
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button {
+  height: 23.28%;
+  top: 76.72%;
+  right: -0.13%;
+  left: 0.13%;
+}

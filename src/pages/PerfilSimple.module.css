@@ -1,0 +1,92 @@
+.rectangleIcon {
+  position: absolute;
+  height: 2.81%;
+  width: 100%;
+  top: 100%;
+  right: 0;
+  bottom: -2.81%;
+  left: 0;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editProfile {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 18px;
+  font-weight: 600;
+}
+.rightIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.profileList,
+.profileList1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 311px;
+  height: 35.6px;
+}
+.profileList1 {
+  top: 52.5px;
+}
+.rectangleIcon2,
+.rectangleIcon3 {
+  position: absolute;
+  height: 0.34%;
+  width: 100%;
+  top: 82.61%;
+  right: 0;
+  bottom: 17.04%;
+  left: 0;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleIcon3 {
+  top: 100%;
+  bottom: -0.34%;
+}
+.options {
+  position: absolute;
+  top: 97px;
+  left: 32px;
+  width: 311px;
+  height: 292.2px;
+}
+.templateComponents {
+  position: absolute;
+  top: 43px;
+  left: 20px;
+  font-size: var(--h1-semibold-size);
+  line-height: 30px;
+  font-family: var(--font-rajdhani);
+}
+.component10Icon {
+  position: absolute;
+  top: 734px;
+  left: 0;
+  width: 375px;
+  height: 92px;
+  object-fit: cover;
+}
+.perfilsimple {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

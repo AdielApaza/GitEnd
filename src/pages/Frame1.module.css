@@ -1,0 +1,59 @@
+.calendario {
+  position: absolute;
+  top: 35px;
+  left: 98px;
+  line-height: 30px;
+}
+.component10Icon,
+.rectangle {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component10Icon {
+  height: 11.33%;
+  top: 88.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle {
+  height: 100%;
+  top: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+}
+.buttonText {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 26.5px);
+  font-weight: 600;
+}
+.defaultButton {
+  position: absolute;
+  height: 6.16%;
+  width: 70.13%;
+  top: 78.08%;
+  right: 14.4%;
+  bottom: 15.76%;
+  left: 15.47%;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--subtitle-regular-size);
+  color: var(--color-black);
+  font-family: var(--footnote-medium);
+}
+.calendario1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h1-semibold-size);
+  color: var(--soft);
+  font-family: var(--font-passion-one);
+}

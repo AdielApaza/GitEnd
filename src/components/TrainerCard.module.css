@@ -1,0 +1,64 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--dark-2);
+}
+.experience,
+.subtitle {
+  position: absolute;
+  left: 96px;
+  line-height: 13px;
+}
+.subtitle {
+  top: 41px;
+}
+.experience {
+  bottom: 16px;
+  color: var(--primary);
+}
+.imageIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.name {
+  position: relative;
+  font-weight: 600;
+}
+.nameParent {
+  position: absolute;
+  top: 16px;
+  left: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--subtitle-regular-size);
+}
+.rightIcon {
+  position: absolute;
+  top: 38px;
+  right: 9px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.trainerCard {
+  width: 343px;
+  height: 96px;
+  text-align: left;
+  font-size: var(--caption-bold-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

@@ -1,0 +1,56 @@
+.rectangleIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.circleRightIcon {
+  position: absolute;
+  top: 21px;
+  right: 24.5px;
+  width: 25.5px;
+  height: 26px;
+}
+.circleLeftIcon {
+  top: 21px;
+  right: 324.5px;
+  width: 25.5px;
+  height: 26px;
+}
+.circleLeftIcon,
+.date,
+.days {
+  position: absolute;
+}
+.days {
+  top: 64px;
+  left: 13px;
+  width: 345px;
+  height: 57px;
+}
+.date {
+  width: 45.38%;
+  top: 17.52%;
+  left: 33.97%;
+  font-weight: 600;
+  display: inline-block;
+}
+.datePicker {
+  position: absolute;
+  height: 16.87%;
+  width: 98.13%;
+  top: 0;
+  right: 1.87%;
+  bottom: 83.13%;
+  left: 0;
+  text-align: left;
+  font-size: var(--subtitle-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

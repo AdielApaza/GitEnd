@@ -1,0 +1,27 @@
+.min,
+.playIcon {
+  position: relative;
+}
+.playIcon {
+  width: 19px;
+  height: 19px;
+  object-fit: cover;
+}
+.min {
+  line-height: 16px;
+}
+.info {
+  border-radius: var(--br-31xl);
+  background-color: var(--dark-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-sm) var(--padding-8xs)
+    var(--padding-8xs);
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--footnote-medium-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

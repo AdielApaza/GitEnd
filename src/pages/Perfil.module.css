@@ -1,0 +1,72 @@
+.profileIcon {
+  position: absolute;
+  height: 12.81%;
+  width: 27.73%;
+  top: 14.78%;
+  right: 51.2%;
+  bottom: 72.41%;
+  left: 21.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cerrarSesion {
+  position: absolute;
+  height: 2.08%;
+  width: 31.73%;
+  top: 80.3%;
+  left: 35.2%;
+  font-weight: 600;
+  color: var(--color-red);
+  display: inline-block;
+}
+.icon {
+  position: absolute;
+  top: 132px;
+  left: 91px;
+  border-radius: var(--br-45xl);
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.gabrielaEsprella,
+.perfil1 {
+  position: absolute;
+  top: 57px;
+  left: 146px;
+  font-size: var(--h1-semibold-size);
+  line-height: 30px;
+  font-family: var(--font-rajdhani);
+}
+.gabrielaEsprella {
+  top: 285px;
+  left: 87px;
+  font-size: var(--font-size-13xl);
+}
+.activo {
+  position: absolute;
+  top: 215px;
+  left: 244px;
+  line-height: 13px;
+  color: var(--primary);
+  cursor: pointer;
+}
+.component10Icon {
+  position: absolute;
+  top: 734px;
+  left: 0;
+  width: 375px;
+  height: 92px;
+  object-fit: cover;
+}
+.perfil {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitle-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

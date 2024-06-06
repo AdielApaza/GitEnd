@@ -1,0 +1,90 @@
+.image11Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 363px;
+  object-fit: cover;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 61.85%;
+  width: 78.13%;
+  top: 38.15%;
+  right: 17.08%;
+  bottom: 0;
+  left: 4.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.background,
+.horaDelDescanso {
+  position: absolute;
+  top: -87px;
+  left: -23px;
+  width: 480px;
+  height: 899px;
+}
+.horaDelDescanso {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+.text {
+  position: absolute;
+  height: 6.65%;
+  width: 75.73%;
+  top: 35.47%;
+  right: 12%;
+  bottom: 57.88%;
+  left: 12.27%;
+}
+.circleLeftIcon {
+  position: absolute;
+  top: 56px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.descansoMedio {
+  top: 350px;
+  left: 102px;
+  font-size: var(--h3-regular-size);
+  font-weight: 600;
+}
+.descansoMedio,
+.div,
+.homeIcon {
+  position: absolute;
+}
+.div {
+  top: 439px;
+  left: 60px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+  color: var(--primary);
+}
+.homeIcon {
+  top: 19px;
+  left: 335px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.postpostmarip {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

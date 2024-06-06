@@ -1,0 +1,79 @@
+.image11Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 363px;
+  object-fit: cover;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 61.85%;
+  width: 78.13%;
+  top: 38.15%;
+  right: 17.08%;
+  bottom: 0;
+  left: 4.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.background {
+  position: absolute;
+  top: -87px;
+  left: -23px;
+  width: 480px;
+  height: 899px;
+}
+.circleLeftIcon,
+.homeIcon {
+  position: absolute;
+  top: 56px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.homeIcon {
+  top: 21px;
+  left: 334px;
+  width: 24px;
+  height: 24px;
+}
+.horaDelDescanso,
+.text,
+.text1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.horaDelDescanso {
+  line-height: 25px;
+  display: inline-block;
+}
+.text,
+.text1 {
+  right: 0;
+  bottom: 0;
+}
+.text {
+  height: 6.28%;
+  width: 80%;
+  top: 36.45%;
+  right: 6.67%;
+  bottom: 57.27%;
+  left: 13.33%;
+}
+.descansopress {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h1-semibold-size);
+  color: var(--soft);
+  font-family: var(--font-passion-one);
+}

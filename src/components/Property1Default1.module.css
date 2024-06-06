@@ -1,0 +1,36 @@
+.rectangleIcon {
+  position: absolute;
+  height: 2.38%;
+  width: 100%;
+  top: 100%;
+  right: 0;
+  bottom: -2.38%;
+  left: 0;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editProfile {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 18px;
+  font-weight: 600;
+}
+.rightIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.property1default {
+  width: 311px;
+  height: 42px;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

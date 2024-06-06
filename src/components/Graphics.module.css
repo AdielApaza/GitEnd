@@ -1,0 +1,217 @@
+.activeCaloriesChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 8px solid var(--dark-2);
+  box-sizing: border-box;
+  width: 176px;
+  height: 180px;
+}
+.activeCaloriesItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 172px;
+}
+.div {
+  height: 25.58%;
+  width: 36.9%;
+  top: 31.57%;
+  left: 19.64%;
+  line-height: 43px;
+  font-weight: 600;
+}
+.cal,
+.div,
+.subtitle {
+  position: absolute;
+  display: inline-block;
+}
+.cal {
+  height: 25.58%;
+  width: 21.43%;
+  top: 34.53%;
+  left: 60.71%;
+  font-size: var(--h3-regular-size);
+  line-height: 43px;
+  font-weight: 600;
+}
+.subtitle {
+  height: 9.53%;
+  width: 55.95%;
+  top: 54.19%;
+  left: 20.24%;
+  font-size: var(--footnote-medium-size);
+  line-height: 16px;
+}
+.activeCalories {
+  position: absolute;
+  top: 0;
+  left: 79px;
+  width: 168px;
+  height: 172px;
+  font-size: var(--h1-semibold-size);
+}
+.stepsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 4px solid var(--dark-2);
+  box-sizing: border-box;
+  width: 97px;
+  height: 99.2px;
+}
+.stepsItem {
+  position: absolute;
+  top: 0;
+  left: 15.5px;
+  width: 77.5px;
+  height: 95.2px;
+}
+.div1,
+.subtitle1 {
+  position: absolute;
+  display: inline-block;
+}
+.div1 {
+  height: 30.15%;
+  width: 54.84%;
+  top: 45.17%;
+  left: 18.28%;
+  line-height: 28px;
+  font-weight: 600;
+}
+.subtitle1 {
+  height: 17.23%;
+  width: 38.71%;
+  top: 15.02%;
+  left: 25.81%;
+  font-size: var(--footnote-medium-size);
+  line-height: 16px;
+}
+.steps {
+  position: absolute;
+  top: 202.8px;
+  left: 0;
+  width: 93px;
+  height: 95.2px;
+  font-size: var(--h4-semibold-size);
+}
+.timeItem {
+  position: absolute;
+  top: 0;
+  left: 46.5px;
+  width: 46.5px;
+  height: 87.8px;
+}
+.subtitle2 {
+  height: 17.23%;
+  width: 49.46%;
+  top: 15.02%;
+  left: 29.03%;
+  line-height: 16px;
+}
+.div2,
+.subtitle2,
+.subtitle3 {
+  position: absolute;
+  display: inline-block;
+}
+.div2 {
+  height: 100%;
+  width: 47.27%;
+  top: 0;
+  left: 0;
+  line-height: 28px;
+  font-weight: 600;
+}
+.subtitle3 {
+  height: 57.14%;
+  width: 43.64%;
+  top: 32.06%;
+  left: 56.36%;
+  font-size: var(--footnote-medium-size);
+  line-height: 16px;
+}
+.parent {
+  position: absolute;
+  height: 30.15%;
+  width: 59.14%;
+  top: 45.17%;
+  right: 19.35%;
+  bottom: 24.68%;
+  left: 21.51%;
+  font-size: var(--h4-semibold-size);
+}
+.heartItem,
+.time {
+  position: absolute;
+  top: 202.8px;
+  left: 117px;
+  width: 93px;
+  height: 95.2px;
+}
+.heartItem {
+  top: 0;
+  left: 0;
+}
+.subtitle4 {
+  height: 17.23%;
+  width: 54.84%;
+  top: 15.02%;
+  left: 26.88%;
+  line-height: 16px;
+}
+.div3,
+.subtitle4,
+.subtitle5 {
+  position: absolute;
+  display: inline-block;
+}
+.div3 {
+  height: 100%;
+  width: 44.07%;
+  top: 0;
+  left: 0;
+  line-height: 28px;
+  font-weight: 600;
+}
+.subtitle5 {
+  height: 57.14%;
+  width: 47.46%;
+  top: 32.06%;
+  left: 52.54%;
+  font-size: var(--footnote-medium-size);
+  line-height: 16px;
+}
+.group {
+  position: absolute;
+  height: 30.15%;
+  width: 63.44%;
+  top: 45.17%;
+  right: 15.05%;
+  bottom: 24.68%;
+  left: 21.51%;
+  font-size: var(--h4-semibold-size);
+}
+.graphics,
+.heart {
+  position: absolute;
+  top: 202.8px;
+  left: 234px;
+  width: 93px;
+  height: 95.2px;
+}
+.graphics {
+  top: 156px;
+  left: 20px;
+  width: 327px;
+  height: 298px;
+  text-align: left;
+  font-size: var(--footnote-medium-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

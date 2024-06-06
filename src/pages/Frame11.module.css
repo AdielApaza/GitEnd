@@ -1,0 +1,109 @@
+.headline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.finishedChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--dark-2);
+}
+.finishedChild,
+.name,
+.subtitle {
+  position: absolute;
+}
+.subtitle {
+  bottom: 16px;
+  left: 19px;
+  line-height: 16px;
+}
+.name {
+  top: 16px;
+  left: 16px;
+  font-size: var(--subtitle-regular-size);
+  font-weight: 600;
+  color: var(--soft);
+}
+.tickSquareIcon {
+  position: absolute;
+  top: 25px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.finished {
+  position: absolute;
+  height: 66.36%;
+  width: 100%;
+  top: 33.64%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: var(--footnote-medium-size);
+  color: var(--primary);
+}
+.finishedWorkout {
+  position: absolute;
+  height: 13.55%;
+  width: 87.2%;
+  top: 59.24%;
+  right: 7.47%;
+  bottom: 27.22%;
+  left: 5.33%;
+}
+.component10Icon {
+  position: absolute;
+  top: 720px;
+  left: 0;
+  width: 375px;
+  height: 92px;
+  object-fit: cover;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+}
+.buttonText {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 26.5px);
+  font-weight: 600;
+}
+.defaultButton {
+  position: absolute;
+  height: 6.16%;
+  width: 70.13%;
+  top: 78.82%;
+  right: 16.53%;
+  bottom: 15.02%;
+  left: 13.33%;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-black);
+}
+.calendario2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitle-regular-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+}

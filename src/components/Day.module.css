@@ -1,0 +1,37 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-3);
+}
+.day1,
+.number,
+.rectangle {
+  position: absolute;
+}
+.day1 {
+  height: 28.59%;
+  width: 33.25%;
+  top: 17.81%;
+  left: 32.5%;
+  line-height: 16px;
+  display: inline-block;
+}
+.number {
+  top: 50%;
+  left: 22.5%;
+  font-size: var(--subtitle-regular-size);
+  font-weight: 600;
+}
+.day {
+  height: 64px;
+  text-align: center;
+  font-size: var(--footnote-medium-size);
+  color: var(--soft);
+  font-family: var(--footnote-medium);
+  flex: 1;
+}

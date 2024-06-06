@@ -1,0 +1,57 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+}
+.buttonText {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 26.5px);
+  font-weight: 600;
+}
+.button,
+.defaultButton {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button {
+  height: 6.16%;
+  width: 70.13%;
+  top: 87.68%;
+  right: 14.93%;
+  bottom: 6.16%;
+  left: 14.93%;
+  cursor: pointer;
+}
+.ajustes {
+  position: absolute;
+  top: 38px;
+  left: 140px;
+  font-size: var(--h1-semibold-size);
+  line-height: 30px;
+  font-family: var(--font-rajdhani);
+  color: var(--soft);
+  text-align: left;
+}
+.payment {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-1);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subtitle-regular-size);
+  color: var(--color-black);
+  font-family: var(--footnote-medium);
+}
